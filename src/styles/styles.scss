@@ -1,0 +1,43 @@
+$yellow: #ccc;
+
+.wrapper {
+  margin-top: 60px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #474747;
+}
+
+.nav-menu {
+  background-color: #474747;
+}
+
+.nav-toggle:hover {
+  background-color: #474747;
+}
+
+.nav-toggle span {
+  background-color: #fff;
+}
+
+a.nav-item {
+  color: #fff;
+}
+
+a.nav-item:hover,
+a.nav-item:active {
+  color: #df4747;
+}
+
+.icon-caption {
+  vertical-align: text-top;
+}
+
+.infiniteScrollContainer {
+  // margin: -10px -10px 0 -10px;
+  // padding: 10px 15px 0 15px;
+}

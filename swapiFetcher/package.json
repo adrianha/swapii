@@ -1,0 +1,16 @@
+{
+  "name": "swapifetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adrian Hartanto <s.adrianh@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "bluebird": "^3.4.1",
+    "firebase": "^3.1.0"
+  }
+}
