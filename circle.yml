@@ -17,8 +17,3 @@ deployment:
     branch: master
     commands:
       - ./deploy.sh
-  hub:
-    branch: master
-    commands:
-      - docker login -e s.adrianh@gmail.com -u adrianhartanto -p adrian30
-      - docker push ah/dockerized-swapii
