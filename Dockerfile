@@ -13,5 +13,5 @@ COPY . /usr/src/app
 
 RUN npm install; npm run build;
 
-EXPOSE 80 8080 5000 7777
+EXPOSE 80 5000 7777 8080
 CMD [ "npm", "run", "start:prod" ]
